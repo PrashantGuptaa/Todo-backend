@@ -10,7 +10,7 @@ To run follow below step:
 3. Type "npm i" on terminal to install dependencies
 4. Type "npm start" to run the project (Default port is 7000)
 
-Functionalities:
+# Functionalities:
 1. User Login and Sign-Up
 2. Create Todo
 3. Fetch All todos
@@ -18,7 +18,7 @@ Functionalities:
 5. Delete Todo
 6. Mark to-do as Complete
 
-Upcoming:
+# Upcoming:
 1. View your friends To-dos
 2. Built Oauth2
 3. Add proper DB layer (currently using Static Data)
