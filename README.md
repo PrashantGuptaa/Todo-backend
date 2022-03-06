@@ -22,4 +22,4 @@ Upcoming:
 1. View your friends To-dos
 2. Built Oauth2
 3. Add proper DB layer (currently using Static Data)
-4. 4. Third party login like Facebook and google login
+4. Third party login like Facebook and google login
