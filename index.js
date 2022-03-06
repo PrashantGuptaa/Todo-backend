@@ -5,6 +5,7 @@ import userRoutes from './routes/userRoutes.js';
 import bodyParser from 'body-parser';
 import httpContextData from './middlewares/httpContext';
 import httpContext from 'express-http-context';
+import todoRoutes from './routes/todoRoutes.js';
 const app = express();
 
 global.logger = new MyLogger;
@@ -15,7 +16,7 @@ app.use(httpContextData);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(userRoutes);
-
+app.use(todoRoutes);
 
 const port = process.env.PORT || 7000;
 app.listen(port, () => {
